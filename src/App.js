@@ -10,7 +10,7 @@ const App = () => {
     if (!cityName) {
       alert("Enter city name...");
     }
-    const api = `http://api.weatherstack.com/current?access_key=0a52d411588cba66f0a7f16345697c4b&query=${cityName}`;
+    const api = `http://api.weatherstack.com/current?access_key=ede5eba6686cbea738062093ec9e4a3e&query=${cityName}`;
     axios
       .get(api)
       .then((res) => {
